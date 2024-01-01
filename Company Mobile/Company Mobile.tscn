@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3 uid="uid://48fgkyg64to6"]
+
+[ext_resource type="Texture2D" uid="uid://c43ywicq88khi" path="res://icon.svg" id="1_8jnkl"]
+
+[node name="Node3D" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0412207, 0, 0.041221)
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchor_left = 0.026
+anchor_top = 0.005
+anchor_right = 0.026
+anchor_bottom = 0.005
+offset_left = 1.048
+offset_top = 0.76
+offset_right = 39.048
+offset_bottom = 42.76
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+
+[node name="Sprite3D" type="Sprite3D" parent="CharacterBody2D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000134468, 0.638529, -0.011431)
+texture = ExtResource("1_8jnkl")
